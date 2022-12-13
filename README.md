@@ -30,7 +30,7 @@ Els atributs són els següents:
 - histogram_tendency: Tendència de l'histograma\
 - fetal_health: Normal=1 - Suspect=2 - Pathological=3 (Atribut objectiu)
 ### Objectius del dataset
-Volem aprender quina és la ...
+Prenent l'atribut fetal_health com a objectiu volem avaluar la salut del fetus, permetent als professionals sanitaris prendre mesures per prevenir la mortalitat infantil i materna.
 ## Experiments
 Durant aquesta pràctica hem realitzat diferents experiments.
 ### Preprocessat
@@ -38,7 +38,7 @@ Quines proves hem realitzat que tinguin a veure amb el pre-processat? com han af
 ### Model
 | Model | Hiperparametres | Mètrica | Temps |
 | -- | -- | -- | -- |
-| [Random Forest](link) | 100 Trees, XX | 57% | 100ms |
+| [Decision Tree](link) | 100 Trees, XX | 57% | 100ms |
 | Random Forest | 1000 Trees, XX | 58% | 1000ms |
 | SVM | kernel: lineal C:10 | 58% | 200ms |
 | -- | -- | -- | -- |
