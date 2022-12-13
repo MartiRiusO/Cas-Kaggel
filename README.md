@@ -1,5 +1,6 @@
 # Pràctica Kaggle APC UAB 2022-23
-### Nom: Martí Rius Ollé ### DATASET: Fetal Health Classification
+### Nom: Martí Rius Ollé 
+### DATASET: Fetal Health Classification
 ### URL: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification?datasetId=916586&searchQuery=resampling)
 ## Resum
 Aquest dataset classifica la salut fetal per prevenir la mortalitat infantil i materna.
