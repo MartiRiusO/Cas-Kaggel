@@ -34,14 +34,14 @@ Prenent l'atribut fetal_health com a objectiu volem avaluar la salut del fetus, 
 ## Experiments
 Durant aquesta pràctica hem realitzat diferents experiments.
 ### Preprocessat
-Quines proves hem realitzat que tinguin a veure amb el pre-processat? com han afectat als resultats?
+No he hagut de tractar cap atribut com a tal; ja que no hi habia cap atribut null i tots eren float, però he aplicat un resampling; ja que l'atribut objectiu estaba massa desproporcionat.
+També he fet un PCA.
 ### Model
 | Model | Hiperparametres | Mètrica | Temps |
 | -- | -- | -- | -- |
 | Decision Tree |  | 94% | 0.0289s |
 | Random Forest |  | 97% | 0.5944s |
 | K-Nearest-Neighbor |  | 88% | 0.2045s |
-| -- | -- | -- | -- |
 | SVM | Kernel lineal | 84% | 7.4696s |
 | SVM | Kernel rbf | 91% | 1.0173s |
 | SVM | Kernel polinomial | 90% | 1971.87s |
@@ -49,8 +49,7 @@ Quines proves hem realitzat que tinguin a veure amb el pre-processat? com han af
 Per tal de fer una prova, es pot fer servir amb la següent comanda
 ``` python3 demo/demo.py --input here ```
 ## Conclusions
-El millor model que s'ha aconseguit ha estat...
-En comparació amb l'estat de l'art i els altres treballs que hem analitzat....
+El model més eficaç que he aconseguit és el Random Forest amb un 97% d'acuracy. El segon amb més accuracy sense contar el decision tree òbviament seria el SVM amb el kernel rbf amb un 91%. Hi ha una diferència significativa.
 ## Idees per treballar en un futur
 Crec que seria interesant indagar més en...
 ## Llicencia
