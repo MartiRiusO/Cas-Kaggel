@@ -5,7 +5,7 @@
 Aquest dataset classifica la salut fetal per prevenir la mortalitat infantil i materna.
 ## Atributs
 El datasset conté 22 atributs dels quals 21 són numèrics i 1 és categòric (fetal_health; el target).\
-Els atributs són els següents:\
+Els atributs són els següents:
 
 -baseline value: Freqüència cardíaca fetal de referència (FHR) (batecs per minut)\
 -accelerations: Nombre d'acceleracions per segon\
