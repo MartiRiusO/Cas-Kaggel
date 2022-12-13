@@ -34,7 +34,7 @@ Prenent l'atribut fetal_health com a objectiu volem avaluar la salut del fetus, 
 ## Experiments
 Durant aquesta pràctica hem realitzat diferents experiments.
 ### Preprocessat
-No he hagut de tractar cap atribut com a tal; ja que no hi habia cap atribut null i tots eren float, però he aplicat un resampling; ja que l'atribut objectiu estaba massa desproporcionat.
+No he hagut de tractar cap atribut com a tal; ja que no hi havia cap atribut null i tots eren float, però he aplicat un resampling; perquè l'atribut objectiu estava massa desproporcionat.\
 També he fet un PCA.
 ### Model
 | Model | Hiperparametres | Mètrica | Temps |
@@ -52,5 +52,3 @@ Per tal de fer una prova, es pot fer servir amb la següent comanda
 El model més eficaç que he aconseguit és el Random Forest amb un 97% d'acuracy. El segon amb més accuracy sense contar el decision tree òbviament seria el SVM amb el kernel rbf amb un 91%. Hi ha una diferència significativa.
 ## Idees per treballar en un futur
 Crec que seria interesant indagar més en...
-## Llicencia
-El projecte s’ha desenvolupat sota llicència ZZZz.
