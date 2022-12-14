@@ -43,9 +43,8 @@ Durant aquesta pràctica hem realitzat diferents experiments.
 No he hagut de tractar cap atribut com a tal; ja que no hi havia cap atribut null i tots eren float, però he aplicat un resampling; perquè l'atribut objectiu estava massa desproporcionat.\
 També he fet un PCA.
 ### Model
-| :-------------: |:-------------:| :-------------:| :-------------:|
 | Model | Hiperparametres | Mètrica | Temps |
-| -- | -- | -- | -- |
+| :--: | :--: | :--: | :--: |
 | Decision Tree |   -   | 94% | 0.0289s |
 | Random Forest |   -   | 97% | 0.5944s |
 | K-Nearest-Neighbor |   -   | 88% | 0.2045s |
