@@ -4,6 +4,11 @@
 ### URL: https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification?datasetId=916586&searchQuery=resampling)
 ## Resum
 Aquest dataset classifica la salut fetal per prevenir la mortalitat infantil i materna.
+## Context
+La reducció de la mortalitat infantil es reflecteix en diversos dels Objectius de Desenvolupament Sostenible de les Nacions Unides i és un indicador clau del progrés humà.\
+L'ONU preveu que l'any 2030, els països acabin amb les morts evitables de nounats i nens menors de 5 anys, i tots els països pretenen reduir la mortalitat dels menors de 5 anys com a mínim a 25 per cada 1.000 nascuts vius.
+
+Paral·lelament a la noció de mortalitat infantil hi ha, per descomptat, la mortalitat materna, que suposa 295.000 morts durant i després de l'embaràs i el part (a partir del 2017). La gran majoria d'aquestes morts (94%) es van produir en entorns amb pocs recursos, i la majoria es podrien haver evitat.
 ## Atributs
 El datasset conté 22 atributs dels quals 21 són numèrics i 1 és categòric (fetal_health; el target).\
 Els atributs són els següents:
