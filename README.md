@@ -44,14 +44,14 @@ No he hagut de tractar cap atribut com a tal; ja que no hi havia cap atribut nul
 També he fet un PCA.
 ### Model
 <div align="center">
-  | Model | Hiperparametres | Mètrica | Temps |
-  | -- | -- | -- | -- |
-  | Decision Tree |   -   | 94% | 0.0289s |
-   | Random Forest |   -   | 97% | 0.5944s |
-  | K-Nearest-Neighbor |   -   | 88% | 0.2045s |
-  | SVM | Kernel lineal | 84% | 7.4696s |
-  | SVM | Kernel rbf | 91% | 1.0173s |
-  | SVM | Kernel polinomial | 90% | 1971.87s |
+| Model | Hiperparametres | Mètrica | Temps |
+| -- | -- | -- | -- |
+| Decision Tree |   -   | 94% | 0.0289s |
+| Random Forest |   -   | 97% | 0.5944s |
+| K-Nearest-Neighbor |   -   | 88% | 0.2045s |
+| SVM | Kernel lineal | 84% | 7.4696s |
+| SVM | Kernel rbf | 91% | 1.0173s |
+| SVM | Kernel polinomial | 90% | 1971.87s |
 </div>
 ## Conclusions
 El model més eficaç que he aconseguit és el Random Forest amb un 97% d'acuracy. El segon amb més accuracy sense contar el decision tree òbviament seria el SVM amb el kernel rbf amb un 91%. Hi ha una diferència significativa.
