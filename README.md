@@ -45,9 +45,9 @@ També he fet un PCA.
 ### Model
 | Model | Hiperparametres | Mètrica | Temps |
 | -- | -- | -- | -- |
-| Decision Tree | - | 94% | 0.0289s |
-| Random Forest | - | 97% | 0.5944s |
-| K-Nearest-Neighbor | - | 88% | 0.2045s |
+| Decision Tree |   -   | 94% | 0.0289s |
+| Random Forest |   -   | 97% | 0.5944s |
+| K-Nearest-Neighbor |   -   | 88% | 0.2045s |
 | SVM | Kernel lineal | 84% | 7.4696s |
 | SVM | Kernel rbf | 91% | 1.0173s |
 | SVM | Kernel polinomial | 90% | 1971.87s |
