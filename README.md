@@ -51,10 +51,7 @@ També he fet un PCA.
 | SVM | Kernel lineal | 84% | 7.4696s |
 | SVM | Kernel rbf | 91% | 1.0173s |
 | SVM | Kernel polinomial | 90% | 1971.87s |
-## Demo
-Per tal de fer una prova, es pot fer servir amb la següent comanda
-``` python3 demo/demo.py --input here ```
 ## Conclusions
 El model més eficaç que he aconseguit és el Random Forest amb un 97% d'acuracy. El segon amb més accuracy sense contar el decision tree òbviament seria el SVM amb el kernel rbf amb un 91%. Hi ha una diferència significativa.
 ## Idees per treballar en un futur
-Crec que seria interesant indagar més en...
+Es podria intentar trobar hyperparametres que milloresin l'acuracy dels models.
