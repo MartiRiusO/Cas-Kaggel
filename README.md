@@ -54,4 +54,4 @@ També he fet un PCA.
 ## Conclusions
 El model més eficaç que he aconseguit és el Random Forest amb un 97% d'acuracy. El segon amb més accuracy sense contar el decision tree òbviament seria el SVM amb el kernel rbf amb un 91%. Hi ha una diferència significativa.
 ## Idees per treballar en un futur
-Es podria intentar trobar hyperparametres que milloresin l'acuracy dels models.
+Es podria intentar trobar hyperparametres que milloressin l'acuracy dels models.
